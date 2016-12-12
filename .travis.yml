@@ -11,5 +11,5 @@ install:
   go get gopkg.in/pg.v5
 
 before_script:
-  - go --version
+  - go version
   - psql --version
