@@ -1,6 +1,6 @@
 go-examples
 ===========
-[![Build Status](https://img.shields.io/travis/LilMeyer/go-examples/master.svg?style=flat-square)](https://travis-ci.org/LilMeyer/go-examples)
+[![Build Status](https://img.shields.io/travis/romain-cotte/go-examples/master.svg?style=flat-square)](https://travis-ci.org/romain-cotte/go-examples)
 
 Variables:
 ```
