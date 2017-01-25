@@ -40,11 +40,9 @@ func createSchema(db *pg.DB) error {
   return nil
 }
 
-func ExampleDB_Model() {
-  db := pg.Connect(&pg.Options{
-    User: "postgres",
-    // Password: "local",
-  })
+func ExampleDBModel() {
+
+  db := pg.Connect(&options)
 
   err := createSchema(db)
   if err != nil {
