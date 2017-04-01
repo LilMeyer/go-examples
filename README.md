@@ -13,3 +13,8 @@ Installation:
 go get gopkg.in/pg.v5
 go get github.com/spf13/viper
 ```
+
+To format correctly, hit
+```
+go fmt ./...
+```

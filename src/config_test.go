@@ -1,6 +1,6 @@
 package examples
 
 func ExampleInitConfig() {
-  InitConfig()
-  // Output: Hello World
+	InitConfig()
+	// Output: Hello World
 }
