@@ -3,6 +3,7 @@ package examples
 import (
 	"fmt"
 	"gopkg.in/pg.v5"
+	"testing"
 )
 
 type User struct {
@@ -40,7 +41,9 @@ func createSchema(db *pg.DB) error {
 	return nil
 }
 
-func ExampleDBModel() {
+// func ExampleDBModel() {
+func TestDBModel(* testing.T) {
+	fmt.Println("options", options)
 
 	db := pg.Connect(&options)
 
@@ -102,7 +105,8 @@ func ExampleDBModel() {
 	fmt.Println(user)
 	fmt.Println(users)
 	fmt.Println(story)
-	// Output: User<1 admin [admin1@admin admin2@admin]>
+	// Output:
+	// User<1 admin [admin1@admin admin2@admin]>
 	// [User<1 admin [admin1@admin admin2@admin]> User<2 root [root1@root root2@root]>]
 	// Story<1 Cool story User<1 admin [admin1@admin admin2@admin]>>
 }

@@ -1,6 +1,10 @@
 package examples
 
-func ExampleInitConfig() {
+import (
+  "testing"
+)
+
+func TestInitConfig(t *testing.T) {
 	InitConfig()
 	// Output: Hello World
 }
